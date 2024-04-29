@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100%;
+            background-color: rgba(245, 222, 179, 0.361);
+        }
+        header{
+            width: 100%;
+            background-color: #CCF7F9;
+        }
+        header .navbar ul{
+            overflow: hidden;
+            list-style: none;
+        }
+        header .navbar ul li{
+            float: left;
+            margin: 5px 45px;
+            transition: 0.3s;
+        }
+        header .navbar ul li a{
+            text-decoration: none;
+            color: black;
+            margin: 0px 15px;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        header .navbar ul li:hover{
+            scale: 1.2;
+        }
+        header h2{
+            font-size: 30px;
+            text-align: center;
+            margin-top: 50px;
+            position: relative;
+            bottom: 25px;
+            text-transform: uppercase;
+        }
+        form .container{
+            width: 100%;
+            height: 60vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        form .container .co-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        form .container .co-container h3{
+            font-size: 30px;
+            letter-spacing: 7px;
+        }
+        form .container .co-container .in{
+            outline: none;
+            border: none;
+            border-bottom: 2px solid black;
+            background-color: transparent;
+            margin: 20px 0px;
+            font-size: 15px;
+            padding: 20px 0px;
+            font-weight: bold;
+        }
+        form .container img{
+            margin-top: 20px;
+            width: 30%;
+        }
+        .sign{
+            text-align: center;
+        }
+        form .sign #submit{
+            background-color: blue;
+            padding: 10px 40px;
+            border: none;
+            font-weight: bold;
+            color: #ffffff;
+            text-transform: uppercase;
+            transition: 0.3s;
+        }
+        form .sign #submit:hover{
+            scale: 1.1;
+        }
+        form .sign a{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        form .sign a:hover{
+            text-decoration: underline blue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sign.html">Sign Up</a></li>
+                <li><a href="reg.html">Login</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h2>Log in</h2>
+    </header>
+    <form action="ravi.html">
+        <div class="container">
+            <div class="co-container">
+                <h3>Create Account</h3>
+                <input type="email" placeholder="E-Mail" class="in" required>
+                <input type="password" placeholder="Password" class="in" required>
+            </div>
+            <img src="young.jpg" alt="">
+        </div>
+        <div class="sign">
+            <input type="submit" value="Log In" id="submit"><br><br>
+            <a href="sign.html">Sign up here</a>
+        </div>
+    </form>
+</body>
+</html>

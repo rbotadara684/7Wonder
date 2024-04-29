@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(245, 222, 179, 0.361);
+        }
+        header{
+            width: 100%;
+            background-color: #CCF7F9;
+
+        }
+        header .navbar ul{
+            overflow: hidden;
+            list-style: none;
+        }
+        header .navbar ul li{
+            float: left;
+            margin: 5px 45px;
+            transition: 0.3s;
+        }
+        header .navbar ul li a{
+            text-decoration: none;
+            color: black;
+            margin: 0px 15px;
+            font-size: 22px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        header .navbar ul li:hover{
+            scale: 1.2;
+        }
+        header h2{
+            font-size: 35px;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .container .cell{
+            margin: 20px;
+            width: 40%;
+        }
+        .container .cell img{
+            width: 80%;
+            height: 50vh;
+        }
+        .container .cell a{
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+        }
+        .container .cell a:hover{
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="sign.html">Sign Up</a></li>
+                <li><a href="reg.html">Login</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <h2>7 Wonders</h2>
+    </header>
+    <div class="container">
+        <div class="cell">
+            <img src="1212.webp">
+            <a href="w1.html"><h3>1.The Pyramid at Chichen Itza</h3></a>
+        </div>
+        <div class="cell">
+            <img src="121212.jpg">
+            <a href="w2.html"><h3>2.Christ the Redeemer</h3></a>
+        </div>
+        <div class="cell">
+            <img src="2323.webp">
+            <a href="w3.html"><h3>3.The Roman Colosseum</h3></a>
+        </div>
+        <div class="cell">
+            <img src="taj.webp">
+            <a href="w4.html"><h3>4.The Taj Mahal</h3></a>
+        </div>
+        <div class="cell">
+            <img src="232323.webp">
+            <a href="w5.html"><h3>5.The Great Wall of China</h3></a>
+        </div>
+        <div class="cell">
+            <img src="3434.jpg">
+            <a href="w6.html"><h3>6.Machu Picchu</h3></a>
+        </div>
+        <div class="cell">
+            <img src="343434.jpg">
+            <a href="w7.html"><h3>7.Petra</h3></a>
+        </div>
+    </div>
+</body>
+</html>
